@@ -1,0 +1,16 @@
+title: Data Foundations of AI
+description: A community and collaboration hub for understanding, improving, and governing training data in modern AI.
+url: ""
+baseurl: ""
+markdown: kramdown
+
+# Optional: set this to your GitHub org/user + repo if using project pages:
+# baseurl: "/data-foundations-of-ai"
+
+permalink: pretty
+
+# Build settings
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

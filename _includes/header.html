@@ -1,0 +1,52 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav-list">
+        {% for item in site.data.navigation %}
+          {% if item.children %}
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+                {{ item.title }}
+                <span class="caret">▾</span>
+              </button>
+              <ul class="dropdown-menu">
+                {% for child in item.children %}
+                  <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a href="{{ item.url | relative_url }}"
+                 class="{% if page.url == item.url %}active{% endif %}">
+                 {{ item.title }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // tiny dropdown behavior (no external libs)
+  document.addEventListener('click', (e) => {
+    const toggles = document.querySelectorAll('.dropdown-toggle');
+    toggles.forEach(t => {
+      const menu = t.parentElement.querySelector('.dropdown-menu');
+      const clickedToggle = t.contains(e.target);
+      if (clickedToggle) {
+        const isOpen = menu.classList.contains('open');
+        document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
+        menu.classList.toggle('open', !isOpen);
+        t.setAttribute('aria-expanded', String(!isOpen));
+      } else {
+        menu.classList.remove('open');
+        t.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+</script>
