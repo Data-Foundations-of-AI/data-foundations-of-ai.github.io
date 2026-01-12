@@ -46,8 +46,8 @@ permalink: /
       Whether you're just getting started or are an active researcher in the field, we'd love to have you contribute.
     </p>
     <div class="cta-row">
-      <a class="btn" href="https://forms.gle/YOUR_SLACK_FORM_ID">💬 Join our Slack</a>
-      <a class="btn" href="https://forms.gle/YOUR_SPEAKER_FORM_ID">🎙️ Nominate a speaker</a>
+      <a class="btn" href="https://forms.gle/SLVzaAzEcc4chTEn6">💬 Join our Slack</a>
+      <a class="btn" href="https://forms.gle/DV92KecS9RsQGFj96">🎙️ Nominate a speaker</a>
     </div>
   </div>
 </div>

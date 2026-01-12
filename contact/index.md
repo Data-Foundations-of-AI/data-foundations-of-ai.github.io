@@ -5,5 +5,5 @@ permalink: /contact/
 ---
 
 For now:
-- Slack: *(access request form link coming soon)*
+- Slack: [Request access via Google Form](https://forms.gle/SLVzaAzEcc4chTEn6)
 - Email: *(to be added)*
