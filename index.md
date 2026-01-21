@@ -34,7 +34,7 @@ permalink: /
     <h2 class="section-title">Scope</h2>
     <p>
       We focus on: (i) scientific understanding of training data, (ii) data-centric algorithms for improving training data,
-      (iii) data and society (economy, governance, etc), and (iv) the science of benchmarks.
+      (iii) data and society (economy, governance, etc), and (iv) science of benchmarks and evaluation.
     </p>
   </div>
 
