@@ -26,9 +26,9 @@ permalink: /
 
     <h2 class="section-title">Our Goal</h2>
     <p>
-      Modern AI systems are shaped as much by their <strong>data</strong> as by their architectures.
+      Modern AI systems are shaped as much by their <strong>data</strong> as by their architectures and training algorithms.
       While data has traditionally been treated as a secondary artifact in AI research, its central role in determining model behavior, capabilities, and failure modes has become increasingly clear.
-      Our goal is to foster an active research community focused on data as a first-class foundation of AI, systematically measuring, understanding, designing, and governing the data that fuels AI development.
+      Our goal is to foster an active research community focused on data as a first-class foundation of AI, systematically understanding, optimizing, and governing the data for better fueling AI development.
     </p>
 
     <h2 class="section-title">Scope</h2>
