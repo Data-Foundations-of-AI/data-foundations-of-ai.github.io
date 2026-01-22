@@ -10,7 +10,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 
 <div class="resource-card">
   <h3><a href="https://arxiv.org/pdf/2303.10158">Data-centric Artificial Intelligence: A Survey</a></h3>
-  <p>Comprehensive survey covering the landscape of data-centric AI approaches and methodologies.</p>
+  <p>An early survey covering the landscape of data-centric AI approaches and methodologies.</p>
 </div>
 
 <div class="resource-card">
@@ -165,7 +165,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 ### Seminars
 
 <div class="resource-card">
-  <h3><a href="https://www.datologyai.com/blog/summer-of-data-seminar">Summer Data Seminar by Datology AI</a></h3>
+  <h3><a href="https://www.datologyai.com/blog/summer-of-data-seminar">Summer of Data Seminar by Datology AI</a></h3>
   <p>A seminar series featuring talks on data-centric approaches to AI development.</p>
   <span class="badge">Seminar Series</span>
 </div>
@@ -174,7 +174,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 
 <div class="resource-card">
   <h3><a href="https://trais-lab.github.io/dattri-reading-group/">Data Attribution Reading Group</a></h3>
-  <p>Regular reading group discussions on the latest research in data attribution methods.</p>
+  <p>A reading group on data attribution research in Summer 2024.</p>
   <span class="badge">Reading Group</span>
 </div>
 
@@ -182,7 +182,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 
 <div class="resource-card">
   <h3><a href="https://dcai.csail.mit.edu/">Data-centric AI course from MIT</a></h3>
-  <p>A comprehensive mini-course covering fundamental concepts and practical approaches to data-centric AI.</p>
+  <p>A intro-level mini-course covering fundamental concepts and practical approaches to data-centric AI.</p>
   <span class="badge">Mini-course</span>
 </div>
 
