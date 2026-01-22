@@ -247,3 +247,57 @@ hr{
   padding: 1.2rem 0;
   background: #fff;
 }
+
+/* Resource Cards */
+.resource-card {
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+  border-color: var(--accent);
+}
+
+.resource-card h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.resource-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.resource-card h3 a:hover {
+  color: var(--accent);
+}
+
+.resource-card p {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.resource-card .badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  margin-top: 0.5rem;
+}
+
