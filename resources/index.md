@@ -37,13 +37,13 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 
 <div class="resource-card">
   <h3><a href="https://neurips.cc/virtual/2023/73959">Data Contribution Estimation for Machine Learning</a></h3>
-  <p>Comprehensive tutorial on methods for estimating the contribution of individual data points to model performance.</p>
+  <p>Tutorial on data contribution estimation (DCE) methods for machine learning and natural language processing.</p>
   <span class="badge">NeurIPS 2023</span>
 </div>
 
 <div class="resource-card">
   <h3><a href="https://sjoshi804.github.io/data-efficient-learning-talk/">Foundations of Data-Efficient Learning</a></h3>
-  <p>Tutorial covering fundamental principles and techniques for learning efficiently from limited data.</p>
+  <p>Tutorial with a unifying view of theoretically-rigorous approaches for data-efficient machine learning.</p>
   <span class="badge">ICML 2024</span>
 </div>
 
@@ -61,7 +61,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 
 <div class="resource-card">
   <h3><a href="https://shichangzh.github.io/xaiTutorial/">Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability</a></h3>
-  <p>Comprehensive tutorial covering the intersection of explainable AI, data-centric approaches, and mechanistic interpretability.</p>
+  <p>Tutorial covering the intersection of explainable AI, data-centric approaches, and mechanistic interpretability.</p>
   <span class="badge">NeurIPS 2025</span>
 </div>
 
@@ -166,7 +166,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 
 <div class="resource-card">
   <h3><a href="https://www.datologyai.com/blog/summer-of-data-seminar">Summer of Data Seminar by Datology AI</a></h3>
-  <p>A seminar series featuring talks on data-centric approaches to AI development.</p>
+  <p>A seminar series featuring talks on interesting research in data and pretraining.</p>
   <span class="badge">Seminar Series</span>
 </div>
 
