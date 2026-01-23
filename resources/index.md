@@ -14,12 +14,12 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 </div>
 
 <div class="resource-card">
-  <h3><a href="https://aclanthology.org/2024.emnlp-main.54/">Large Language Models for Data Annotation and Synthesis: A Survey</a></h3>
+  <h3><a href="https://aclanthology.org/2024.emnlp-main.54.pdf">Large Language Models for Data Annotation and Synthesis: A Survey</a></h3>
   <p>Explores how LLMs can be leveraged for automated data annotation and synthetic data generation.</p>
 </div>
 
 <div class="resource-card">
-  <h3><a href="https://arxiv.org/abs/2402.16827">A Survey on Data Selection for Language Models</a></h3>
+  <h3><a href="https://arxiv.org/pdf/2402.16827">A Survey on Data Selection for Language Models</a></h3>
   <p>In-depth analysis of data selection strategies and their impact on language model performance.</p>
 </div>
 
@@ -29,7 +29,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 </div>
 
 <div class="resource-card">
-  <h3><a href="https://arxiv.org/abs/2212.04612">Training Data Influence Analysis and Estimation: A Survey</a></h3>
+  <h3><a href="https://arxiv.org/pdf/2212.04612">Training Data Influence Analysis and Estimation: A Survey</a></h3>
   <p>Systematic review of methods for analyzing and estimating the influence of training data.</p>
 </div>
 
