@@ -65,6 +65,12 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">NeurIPS 2023</span>
 </div>
 
+<div class="resource-card">
+  <h3><a href="https://www.haifeng-xu.com/DataEcon-aaai23/index.html">The Economics of Data and Machine Learning</a></h3>
+  <p>Tutorial about the value of data from both statistical and economic perspectives, how to effectively price data or information, and how to collect data from economic agents.</p>
+  <span class="badge">AAAI 2023</span>
+</div>
+
 ## 🛠️ Software Libraries
 
 <div class="resource-card">
