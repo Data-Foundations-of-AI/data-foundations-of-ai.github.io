@@ -9,6 +9,21 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 ## 📝 Survey Papers
 
 <div class="resource-card">
+  <h3><a href="https://hal.science/hal-05230469/">A Survey of Data Attribution: Methods, Applications, and Evaluation in the Era of Generative AI</a></h3>
+  <p>Comprehensive overview of data attribution techniques for modern generative AI systems.</p>
+</div>
+
+<div class="resource-card">
+  <h3><a href="https://arxiv.org/abs/2402.16827">A Survey on Data Selection for Language Models</a></h3>
+  <p>In-depth analysis of data selection strategies and their impact on language model performance.</p>
+</div>
+
+<div class="resource-card">
+  <h3><a href="https://aclanthology.org/2024.emnlp-main.54/">Large Language Models for Data Annotation and Synthesis: A Survey</a></h3>
+  <p>Explores how LLMs can be leveraged for automated data annotation and synthetic data generation.</p>
+</div>
+
+<div class="resource-card">
   <h3><a href="https://arxiv.org/pdf/2303.10158">Data-centric Artificial Intelligence: A Survey</a></h3>
   <p>An early survey covering the landscape of data-centric AI approaches and methodologies.</p>
 </div>
@@ -18,39 +33,12 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <p>Systematic review of methods for analyzing and estimating the influence of training data.</p>
 </div>
 
-<div class="resource-card">
-  <h3><a href="https://aclanthology.org/2024.emnlp-main.54/">Large Language Models for Data Annotation and Synthesis: A Survey</a></h3>
-  <p>Explores how LLMs can be leveraged for automated data annotation and synthetic data generation.</p>
-</div>
-
-<div class="resource-card">
-  <h3><a href="https://arxiv.org/abs/2402.16827">A Survey on Data Selection for Language Models</a></h3>
-  <p>In-depth analysis of data selection strategies and their impact on language model performance.</p>
-</div>
-
-<div class="resource-card">
-  <h3><a href="https://hal.science/hal-05230469/">A Survey of Data Attribution: Methods, Applications, and Evaluation in the Era of Generative AI</a></h3>
-  <p>Comprehensive overview of data attribution techniques for modern generative AI systems.</p>
-</div>
-
 ## 📚 Tutorials
 
 <div class="resource-card">
-  <h3><a href="https://neurips.cc/virtual/2023/73959">Data Contribution Estimation for Machine Learning</a></h3>
-  <p>Tutorial on data contribution estimation (DCE) methods for machine learning and natural language processing.</p>
-  <span class="badge">NeurIPS 2023</span>
-</div>
-
-<div class="resource-card">
-  <h3><a href="https://sjoshi804.github.io/data-efficient-learning-talk/">Foundations of Data-Efficient Learning</a></h3>
-  <p>Tutorial with a unifying view of theoretically-rigorous approaches for data-efficient machine learning.</p>
-  <span class="badge">ICML 2024</span>
-</div>
-
-<div class="resource-card">
-  <h3><a href="https://ml-data-tutorial.org/">Data Attribution at Scale</a></h3>
-  <p>Practical guide to implementing data attribution methods for large-scale machine learning systems.</p>
-  <span class="badge">ICML 2024</span>
+  <h3><a href="https://shichangzh.github.io/xaiTutorial/">Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability</a></h3>
+  <p>Tutorial covering the intersection of explainable AI, data-centric approaches, and mechanistic interpretability.</p>
+  <span class="badge">NeurIPS 2025</span>
 </div>
 
 <div class="resource-card">
@@ -60,9 +48,21 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
 </div>
 
 <div class="resource-card">
-  <h3><a href="https://shichangzh.github.io/xaiTutorial/">Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability</a></h3>
-  <p>Tutorial covering the intersection of explainable AI, data-centric approaches, and mechanistic interpretability.</p>
-  <span class="badge">NeurIPS 2025</span>
+  <h3><a href="https://ml-data-tutorial.org/">Data Attribution at Scale</a></h3>
+  <p>Practical guide to implementing data attribution methods for large-scale machine learning systems.</p>
+  <span class="badge">ICML 2024</span>
+</div>
+
+<div class="resource-card">
+  <h3><a href="https://sjoshi804.github.io/data-efficient-learning-talk/">Foundations of Data-Efficient Learning</a></h3>
+  <p>Tutorial with a unifying view of theoretically-rigorous approaches for data-efficient machine learning.</p>
+  <span class="badge">ICML 2024</span>
+</div>
+
+<div class="resource-card">
+  <h3><a href="https://neurips.cc/virtual/2023/73959">Data Contribution Estimation for Machine Learning</a></h3>
+  <p>Tutorial on data contribution estimation (DCE) methods for machine learning and natural language processing.</p>
+  <span class="badge">NeurIPS 2023</span>
 </div>
 
 ## 🛠️ Software Libraries
