@@ -17,9 +17,9 @@ permalink: /
 
     <div class="badges">
       <span class="badge">Science of training data</span>
-      <span class="badge">Data-centric methods</span>
-      <span class="badge">Governance & society</span>
-      <span class="badge">Science of benchmarks</span>
+      <span class="badge">Data-centric algorithms</span>
+      <span class="badge">Data & society</span>
+      <span class="badge">Science of evaluation</span>
     </div>
 
     <hr />
