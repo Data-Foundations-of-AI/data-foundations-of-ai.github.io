@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Home · Data Foundations of AI</title>
+    <meta name="description" content="A community and collaboration hub for understanding, improving, and governing training data in modern AI." />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">Data Foundations of AI</a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav-list">
+        
+          
+            <li class="nav-item">
+              <a href="/"
+                 class="active">
+                 Home
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/seminar-series/"
+                 class="">
+                 Seminar Series
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/resources/"
+                 class="">
+                 Resources
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/contact/"
+                 class="">
+                 Contact Us
+              </a>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // tiny dropdown behavior (no external libs)
+  document.addEventListener('click', (e) => {
+    const toggles = document.querySelectorAll('.dropdown-toggle');
+    toggles.forEach(t => {
+      const menu = t.parentElement.querySelector('.dropdown-menu');
+      const clickedToggle = t.contains(e.target);
+      if (clickedToggle) {
+        const isOpen = menu.classList.contains('open');
+        document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
+        menu.classList.toggle('open', !isOpen);
+        t.setAttribute('aria-expanded', String(!isOpen));
+      } else {
+        menu.classList.remove('open');
+        t.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+</script>
+
+    <main class="container">
+      <div class="hero">
+  <div>
+    <h1>Data Foundations of AI</h1>
+    <p><strong>A community and resource hub</strong> for understanding, improving, and governing <strong>data</strong> in modern AI.</p>
+
+    <div class="cta-row">
+      <a class="btn primary" href="/seminar-series/">🎙️ Seminar Series</a>
+      <a class="btn" href="/resources/">📚 Resources</a>
+      <a class="btn secondary" href="/contact/">💬 Join / Contact</a>
+    </div>
+
+    <div class="badges">
+      <span class="badge">Science of training data</span>
+      <span class="badge">Data-centric algorithms</span>
+      <span class="badge">Data &amp; society</span>
+      <span class="badge">Science of evaluation</span>
+    </div>
+
+    <hr />
+
+    <h2 class="section-title">Our Goal</h2>
+    <p>
+      Modern AI systems are shaped as much by their <strong>data</strong> as by their architectures and training algorithms.
+      While data has traditionally been treated as a secondary artifact in AI research, its central role in determining model behavior, capabilities, and failure modes has become increasingly clear.
+      Our goal is to foster an active research community focused on data as a first-class foundation of AI, systematically understanding, optimizing, and governing the data for better fueling AI development.
+    </p>
+
+    <h2 class="section-title">Scope</h2>
+    <p>
+      We focus on: (i) scientific understanding of training data, (ii) data-centric algorithms,
+      (iii) data and society (economy, governance, etc), and (iv) science of benchmarks and evaluation.
+    </p>
+  </div>
+
+  <div class="hero-card">
+    <h3>Get involved</h3>
+    <p>
+      We welcome participation from researchers in academia and industry at all career stages.
+      There are many ways to get involved: join discussions in our Slack workspace, give a talk in our seminar series, suggest relevant resources, or help organize community events.
+      Whether you're just getting started or are an active researcher in the field, we'd love to have you contribute.
+    </p>
+    <div class="cta-row">
+      <a class="btn" href="https://forms.gle/SLVzaAzEcc4chTEn6">💬 Join our Slack</a>
+      <a class="btn" href="https://forms.gle/DV92KecS9RsQGFj96">🎙️ Nominate a speaker</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">Our Efforts</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3>🎙️ Seminar Series</h3>
+    <p>Bi-weekly public talks on training data science, methods, governance, and evaluation.</p>
+    <p><a href="/seminar-series/">Learn more →</a></p>
+  </div>
+  <div class="card">
+    <h3>📚 Resources</h3>
+    <p>Curated tutorials, surveys, libraries, datasets, and events.</p>
+    <p><a href="/resources/">Browse resources →</a></p>
+  </div>
+</div>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="small">
+      © 2026 Data Foundations of AI · Built with Jekyll
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

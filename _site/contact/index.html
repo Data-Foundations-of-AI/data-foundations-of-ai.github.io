@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact & Get Involved · Data Foundations of AI</title>
+    <meta name="description" content="A community and collaboration hub for understanding, improving, and governing training data in modern AI." />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">Data Foundations of AI</a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav-list">
+        
+          
+            <li class="nav-item">
+              <a href="/"
+                 class="">
+                 Home
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/seminar-series/"
+                 class="">
+                 Seminar Series
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/resources/"
+                 class="">
+                 Resources
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/contact/"
+                 class="active">
+                 Contact Us
+              </a>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // tiny dropdown behavior (no external libs)
+  document.addEventListener('click', (e) => {
+    const toggles = document.querySelectorAll('.dropdown-toggle');
+    toggles.forEach(t => {
+      const menu = t.parentElement.querySelector('.dropdown-menu');
+      const clickedToggle = t.contains(e.target);
+      if (clickedToggle) {
+        const isOpen = menu.classList.contains('open');
+        document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
+        menu.classList.toggle('open', !isOpen);
+        t.setAttribute('aria-expanded', String(!isOpen));
+      } else {
+        menu.classList.remove('open');
+        t.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+</script>
+
+    <main class="container">
+      <p>For now:</p>
+<ul>
+  <li>Slack: <a href="https://forms.gle/SLVzaAzEcc4chTEn6">Request access via Google Form</a></li>
+  <li>Email: data-foundations-of-ai@googlegroups.com</li>
+</ul>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="small">
+      © 2026 Data Foundations of AI · Built with Jekyll
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

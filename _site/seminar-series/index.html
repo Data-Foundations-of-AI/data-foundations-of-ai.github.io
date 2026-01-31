@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Seminar Series · Data Foundations of AI</title>
+    <meta name="description" content="A community and collaboration hub for understanding, improving, and governing training data in modern AI." />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">Data Foundations of AI</a>
+
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav-list">
+        
+          
+            <li class="nav-item">
+              <a href="/"
+                 class="">
+                 Home
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/seminar-series/"
+                 class="active">
+                 Seminar Series
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/resources/"
+                 class="">
+                 Resources
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/contact/"
+                 class="">
+                 Contact Us
+              </a>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // tiny dropdown behavior (no external libs)
+  document.addEventListener('click', (e) => {
+    const toggles = document.querySelectorAll('.dropdown-toggle');
+    toggles.forEach(t => {
+      const menu = t.parentElement.querySelector('.dropdown-menu');
+      const clickedToggle = t.contains(e.target);
+      if (clickedToggle) {
+        const isOpen = menu.classList.contains('open');
+        document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
+        menu.classList.toggle('open', !isOpen);
+        t.setAttribute('aria-expanded', String(!isOpen));
+      } else {
+        menu.classList.remove('open');
+        t.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+</script>
+
+    <main class="container">
+      <h2 id="overview">Overview</h2>
+<p>A bi-weekly public seminar on the Data Foundations of AI.</p>
+
+<h2 id="format">Format</h2>
+<ul>
+  <li>45 minutes: invited talk</li>
+  <li>15 minutes: Q&amp;A</li>
+</ul>
+
+<h2 id="default-time-slot">Default time slot</h2>
+<ul>
+  <li>Tue 6 PM UTC</li>
+</ul>
+
+<h2 id="nominate-a-speaker">Nominate a speaker</h2>
+<p>Speaker nomination form: <em>(link coming soon)</em></p>
+
+<h2 id="recordings">Recordings</h2>
+<p>We record talks only when speakers consent. Recordings will be linked here.</p>
+
+<h3 id="recent-talks">Recent Talks</h3>
+
+<p><em>(This page will be populated after the first few events.)</em></p>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="small">
+      © 2026 Data Foundations of AI · Built with Jekyll
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

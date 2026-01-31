@@ -1,12 +1,85 @@
----
-layout: default
-title: Resources
-permalink: /resources/
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Resources · Data Foundations of AI</title>
+    <meta name="description" content="A community and collaboration hub for understanding, improving, and governing training data in modern AI." />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">Data Foundations of AI</a>
 
-A curated resource hub to help newcomers and researchers navigate **Data Foundations of AI**.
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav-list">
+        
+          
+            <li class="nav-item">
+              <a href="/"
+                 class="">
+                 Home
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/seminar-series/"
+                 class="">
+                 Seminar Series
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/resources/"
+                 class="active">
+                 Resources
+              </a>
+            </li>
+          
+        
+          
+            <li class="nav-item">
+              <a href="/contact/"
+                 class="">
+                 Contact Us
+              </a>
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
 
-## 📝 Survey Papers
+<script>
+  // tiny dropdown behavior (no external libs)
+  document.addEventListener('click', (e) => {
+    const toggles = document.querySelectorAll('.dropdown-toggle');
+    toggles.forEach(t => {
+      const menu = t.parentElement.querySelector('.dropdown-menu');
+      const clickedToggle = t.contains(e.target);
+      if (clickedToggle) {
+        const isOpen = menu.classList.contains('open');
+        document.querySelectorAll('.dropdown-menu').forEach(m => m.classList.remove('open'));
+        menu.classList.toggle('open', !isOpen);
+        t.setAttribute('aria-expanded', String(!isOpen));
+      } else {
+        menu.classList.remove('open');
+        t.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+</script>
+
+    <main class="container">
+      <p>A curated resource hub to help newcomers and researchers navigate <strong>Data Foundations of AI</strong>.</p>
+
+<h2 id="-survey-papers">📝 Survey Papers</h2>
 
 <div class="resource-card">
   <h3><a href="https://hal.science/hal-05230469/">A Survey of Data Attribution: Methods, Applications, and Evaluation in the Era of Generative AI</a></h3>
@@ -33,7 +106,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <p>Systematic review of methods for analyzing and estimating the influence of training data.</p>
 </div>
 
-## 📚 Tutorials
+<h2 id="-tutorials">📚 Tutorials</h2>
 
 <div class="resource-card">
   <h3><a href="https://shichangzh.github.io/xaiTutorial/">Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability</a></h3>
@@ -71,7 +144,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">AAAI 2023</span>
 </div>
 
-## 🛠️ Software Libraries
+<h2 id="️-software-libraries">🛠️ Software Libraries</h2>
 
 <div class="resource-card">
   <h3><a href="https://docs.ray.io/en/latest/data/data.html">Ray Data</a></h3>
@@ -109,7 +182,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">Data Attribution</span>
 </div>
 
-## 📊 Datasets and Benchmarks
+<h2 id="-datasets-and-benchmarks">📊 Datasets and Benchmarks</h2>
 
 <div class="resource-card">
   <h3><a href="https://opendataarena.github.io/">OpenDataArena</a></h3>
@@ -146,9 +219,9 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <p>Benchmark for evaluating data attribution techniques in language models.</p>
 </div>
 
-## 📖 Other Educational Materials
+<h2 id="-other-educational-materials">📖 Other Educational Materials</h2>
 
-### Reading Lists
+<h3 id="reading-lists">Reading Lists</h3>
 
 <div class="resource-card">
   <h3><a href="https://github.com/SJTU-DMTai/awesome-ml-data-quality-papers">Awesome ML Data Quality Papers</a></h3>
@@ -168,7 +241,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">GitHub</span>
 </div>
 
-### Seminars
+<h3 id="seminars">Seminars</h3>
 
 <div class="resource-card">
   <h3><a href="https://www.datologyai.com/blog/summer-of-data-seminar">Summer of Data Seminar by Datology AI</a></h3>
@@ -176,7 +249,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">Seminar Series</span>
 </div>
 
-### Reading Groups
+<h3 id="reading-groups">Reading Groups</h3>
 
 <div class="resource-card">
   <h3><a href="https://trais-lab.github.io/dattri-reading-group/">Data Attribution Reading Group</a></h3>
@@ -184,7 +257,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">Reading Group</span>
 </div>
 
-### Courses
+<h3 id="courses">Courses</h3>
 
 <div class="resource-card">
   <h3><a href="https://dcai.csail.mit.edu/">Data-centric AI course from MIT</a></h3>
@@ -192,7 +265,7 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <span class="badge">Mini-course</span>
 </div>
 
-## 🎓 Events
+<h2 id="-events">🎓 Events</h2>
 
 <div class="resource-card">
   <h3><a href="https://data-fm-iclr2026.github.io/">DATA-FM @ ICLR 2026</a></h3>
@@ -265,3 +338,15 @@ A curated resource hub to help newcomers and researchers navigate **Data Foundat
   <p><strong>Online</strong> • Dec 14th, 2021</p>
   <p>Workshop on data-centric AI.</p>
 </div>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="small">
+      © 2026 Data Foundations of AI · Built with Jekyll
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
