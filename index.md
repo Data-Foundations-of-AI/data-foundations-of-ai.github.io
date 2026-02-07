@@ -12,6 +12,7 @@ permalink: /
     <div class="cta-row">
       <a class="btn primary" href="{{ '/seminar-series/' | relative_url }}">🎙️ Seminar Series</a>
       <a class="btn" href="{{ '/resources/' | relative_url }}">📚 Resources</a>
+      <a class="btn" href="{{ '/organizers/' | relative_url }}">👥 Organization</a>
       <a class="btn secondary" href="{{ '/contact/' | relative_url }}">💬 Join / Contact</a>
     </div>
 
