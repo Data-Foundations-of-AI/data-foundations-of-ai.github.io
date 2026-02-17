@@ -359,6 +359,16 @@ hr{
   font-weight: 600;
 }
 
+.organizer-info h3 a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.organizer-info h3 a:hover {
+  color: var(--accent);
+}
+
 .organizer-info .affiliation {
   margin: 0;
   font-size: 0.9rem;
@@ -383,3 +393,167 @@ hr{
   }
 }
 
+/* Seminar Series Page */
+.seminar-page h1 {
+  margin-bottom: 0.5rem;
+}
+
+.seminar-page > p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.seminar-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.info-card {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 14px;
+  padding: 1.25rem;
+}
+
+.info-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.info-card ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.info-card ul li {
+  margin: 0.25rem 0;
+}
+
+.text-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.seminar-calendar, .past-seminars {
+  margin: 1.5rem 0 2rem;
+  overflow-x: auto;
+}
+
+.seminar-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.seminar-table thead {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.seminar-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.9rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.seminar-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.seminar-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.seminar-table tbody tr:hover {
+  background: var(--card);
+}
+
+.seminar-table tr.no-data td {
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  padding: 2rem;
+}
+
+.btn-small {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-small:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.status-pending {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.calendar-note, .recordings-note {
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-radius: 12px;
+}
+
+.calendar-note p, .recordings-note p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #92400e;
+}
+
+@media (max-width: 768px) {
+  .seminar-table {
+    font-size: 0.85rem;
+  }
+  
+  .seminar-table th,
+  .seminar-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .seminar-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
