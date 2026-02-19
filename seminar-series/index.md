@@ -41,36 +41,36 @@ permalink: /seminar-series/
       <tbody>
         <tr>
           <td>Mar 3, 2026</td>
-          <td>Dylan Zhang</td>
+          <td><a href="https://dylanzsz.github.io/">Dylan Zhang</a></td>
           <td>Post-training Data</td>
-          <td>TBD</td>
+          <td>Junwei</td>
           <td><span class="status-pending">TBA</span></td>
           <!-- <td><a href="#" class="btn-small">Join</a></td> -->
         </tr>
         <tr>
           <td>Mar 10, 2026</td>
-          <td>Nicholas Roberts</td>
+          <td><a href="https://nick11roberts.science/">Nicholas Roberts</a></td>
           <td>Scaling Laws and Evaluation</td>
           <td>Brian</td>
           <td><span class="status-pending">TBA</span></td>
         </tr>
         <tr>
           <td>Mar 24, 2026</td>
-          <td>Mayee Chen</td>
+          <td><a href="https://mayeechen.github.io/">Mayee Chen</a></td>
           <td>Data Mixing</td>
           <td>Brian</td>
           <td><span class="status-pending">TBA</span></td>
         </tr>
         <tr>
           <td>Apr 7, 2026</td>
-          <td>Luxi He</td>
+          <td><a href="https://lumos23.github.io/">Luxi He</a></td>
           <td>Data in LLM Lifecycles</td>
           <td>Junwei</td>
           <td><span class="status-pending">TBA</span></td>
         </tr>
         <tr>
           <td>Apr 21, 2026</td>
-          <td>Haizhong Zheng</td>
+          <td><a href="https://zhenghaizhong.com/">Haizhong Zheng</a></td>
           <td>Efficient RL for LLMs</td>
           <td>Brian</td>
           <td><span class="status-pending">TBA</span></td>
