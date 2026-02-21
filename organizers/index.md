@@ -42,10 +42,10 @@ permalink: /organizers/
 
     <div class="organizer-card">
       <div class="organizer-image">
-        <img src="{{ '/assets/images/organizers/lucy-he.jpg' | relative_url }}" alt="Lucy He">
+        <img src="{{ '/assets/images/organizers/lucy-he.jpg' | relative_url }}" alt="Luxi He">
       </div>
       <div class="organizer-info">
-        <h3><a href="https://lumos23.github.io/" target="_blank" rel="noopener">Lucy He</a></h3>
+        <h3><a href="https://lumos23.github.io/" target="_blank" rel="noopener">Luxi He</a></h3>
         <p class="affiliation">Princeton University</p>
       </div>
     </div>
