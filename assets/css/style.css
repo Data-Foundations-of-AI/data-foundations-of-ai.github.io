@@ -493,6 +493,93 @@ hr{
   background: var(--card);
 }
 
+.seminar-table tr.expandable-row {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.seminar-table tr.expandable-row:hover {
+  background: #f1f5f9;
+}
+
+.expand-indicator {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--accent);
+  transition: transform 0.2s ease;
+}
+
+.seminar-table tr.details-row {
+  background: #fefce8;
+  border-left: 4px solid var(--accent);
+}
+
+.seminar-table tr.details-row td {
+  padding: 2rem;
+}
+
+.seminar-details {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.speaker-photo {
+  width: 200px;
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 3px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #f8fafc;
+}
+
+.seminar-content h3 {
+  margin: 0 0 1.5rem;
+  font-size: 1.3rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.seminar-content h4 {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.05rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.seminar-content p {
+  margin: 0 0 1rem;
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.seminar-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .seminar-details {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .speaker-photo {
+    width: 150px;
+    height: 188px;
+    margin: 0 auto;
+  }
+}
+
 .seminar-table tr.no-data td {
   text-align: center;
   color: var(--muted);

@@ -39,13 +39,40 @@ permalink: /seminar-series/
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="expandable-row" onclick="toggleDetails('seminar-1')">
           <td>Mar 3, 2026</td>
-          <td><a href="https://dylanzsz.github.io/">Dylan Zhang</a></td>
-          <td>Post-training Data</td>
+          <td><a href="https://dylanzsz.github.io/" onclick="event.stopPropagation()">Dylan Zhang</a></td>
+          <td>Post-training Data <span class="expand-indicator">▼</span></td>
           <td>Junwei</td>
-          <td><span class="status-pending">TBA</span></td>
-          <!-- <td><a href="#" class="btn-small">Join</a></td> -->
+          <td onclick="event.stopPropagation()"><span class="status-pending">TBA</span></td>
+        </tr>
+        <tr class="details-row" id="seminar-1" style="display: none;">
+          <td colspan="5">
+            <div class="seminar-details">
+              <div class="speaker-photo">
+                <img src="{{ '/assets/images/seminars/dylan-zhang.jpg' | relative_url }}" alt="Dylan Zhang">
+              </div>
+              <div class="seminar-content">
+                <h3>More Fruitful SFT by Respecting The Learner's Distribution</h3>
+                
+                <h4>Abstract</h4>
+                <p>Classic supervised fine-tuning (SFT) ignores the learner. It treats supervision as universally valid, even when the training data differs substantially from what the model itself would produce — a mismatch that has proven troublesome for LLM post-training in a variety of ways. Recent work on on-policy distillation and self-distillation fine-tuning has similarly argued that effective supervision must respect the learner's own policy.</p>
+                
+                <p>In this talk, I present two works built around that single principle: supervision should be aligned with the learner's distribution. Both implement it as a simple modification to standard SFT.</p>
+                
+                <p><strong>GRAPE</strong> addresses this from a data selection perspective. For each instruction, it selects the response with the highest probability under the target model from a pool of existing candidates, using only a forward pass. Models trained on GRAPE-curated data outperform multiple strong baselines while being lightweight and scalable.</p>
+                
+                <p>When SFT is followed by online RL, we show that stronger SFT (and variants) checkpoints can paradoxically underperform weaker ones after RL — because standard SFT optimizes for offline performance in isolation, without accounting for the on-policy distribution that RL will explore during its own rollouts.</p>
+                
+                <p><strong>PEAR</strong> extends this idea to the setting where SFT is followed by online RL. We first show that stronger SFT checkpoints can paradoxically underperform weaker ones after RL — because standard SFT optimizes for offline performance in isolation, without accounting for the on-policy distribution that RL will later explore. PEAR addresses this by reweighting the loss on each response according to its importance weight: how likely the target policy is to produce that response. We further show that this correction can operate at finer granularities, reweighting individual tokens based on how likely the continuation from that point in the offline data would be under the target policy. This importance-sampling correction, inspired by off-policy evaluation in RL, bridges the gap between the static SFT dataset and the dynamic on-policy distribution, yielding consistent post-RL gains.</p>
+                
+                <p>Both methods operationalize the same insight — that effective supervision must be shaped by the learner's own distribution — through complementary mechanisms: GRAPE by selecting responses the model trains on, PEAR by reweighting how much it learns. Together, they demonstrate that simple, policy-aware corrections can improve the effectiveness of SFT.</p>
+                
+                <h4>Bio</h4>
+                <p>Dylan Zhang is a Ph.D. student in Computer Science at the University of Illinois Urbana-Champaign (UIUC), advised by Prof. Hao Peng. His research focuses on large language model (LLM) post-training, particularly on developing offline training algorithms for efficient and effective model alignment. More broadly, he is interested in understanding the behavior, generalization, and inductive biases of large language models—how they learn from data, adapt through supervision, and exhibit emergent capabilities.</p>
+              </div>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>Mar 10, 2026</td>
@@ -78,6 +105,22 @@ permalink: /seminar-series/
       </tbody>
     </table>
   </div>
+
+  <script>
+    function toggleDetails(id) {
+      const detailsRow = document.getElementById(id);
+      const expandableRow = detailsRow.previousElementSibling;
+      const indicator = expandableRow.querySelector('.expand-indicator');
+      
+      if (detailsRow.style.display === 'none') {
+        detailsRow.style.display = 'table-row';
+        indicator.textContent = '▲';
+      } else {
+        detailsRow.style.display = 'none';
+        indicator.textContent = '▼';
+      }
+    }
+  </script>
 
   <div class="calendar-note">
     <p><strong>Note:</strong> All times are in UTC. Convert to your timezone before joining. Zoom links will be shared closer to the event date.</p>
