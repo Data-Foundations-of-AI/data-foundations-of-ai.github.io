@@ -16,10 +16,10 @@ permalink: /seminar-series/
         <li>15 minutes: Q&A</li>
       </ul>
     </div>
-    <div class="info-card">
+<!--     <div class="info-card">
       <h3>🕐 Default Time</h3>
       <p>Tuesday 6 PM UTC</p>
-    </div>
+    </div> -->
     <div class="info-card">
       <h3>🎙️ Nominate a Speaker</h3>
       <p><a href="https://forms.gle/DV92KecS9RsQGFj96" class="text-link">Submit nomination form</a></p>
@@ -31,7 +31,7 @@ permalink: /seminar-series/
     <table class="seminar-table">
       <thead>
         <tr>
-          <th>Date</th>
+          <th>Time</th>
           <th>Speaker</th>
           <th>Topic</th>
           <th>Host</th>
