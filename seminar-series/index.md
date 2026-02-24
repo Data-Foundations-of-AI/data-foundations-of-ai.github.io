@@ -40,7 +40,7 @@ permalink: /seminar-series/
       </thead>
       <tbody>
         <tr class="expandable-row" onclick="toggleDetails('seminar-1')">
-          <td>7 PM UTC / 2 PM ET<br>Mar 3, 2026</td>
+          <td>7 PM UTC | 2 PM ET<br>Mar 3, 2026</td>
           <td><a href="https://dylanzsz.github.io/" onclick="event.stopPropagation()">Dylan Zhang</a></td>
           <td>Post-training Data <span class="expand-indicator">▼</span></td>
           <td>Junwei</td>
@@ -123,7 +123,7 @@ permalink: /seminar-series/
   </script>
 
   <div class="calendar-note">
-    <p><strong>Note:</strong> All times are in UTC. Convert to your timezone before joining. Zoom links will be shared closer to the event date.</p>
+    <p><strong>Note:</strong> Times are provided in UTC and ET. Convert to your timezone before joining. Zoom links will be shared closer to the event date.</p>
   </div>
 
   <h2 class="section-title">📚 Past Seminars</h2>
