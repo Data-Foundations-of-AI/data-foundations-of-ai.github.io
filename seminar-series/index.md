@@ -42,7 +42,7 @@ permalink: /seminar-series/
         <tr class="expandable-row" onclick="toggleDetails('seminar-1')">
           <td>7 PM UTC | 2 PM ET<br>Mar 3, 2026</td>
           <td><a href="https://dylanzsz.github.io/" onclick="event.stopPropagation()">Dylan Zhang</a></td>
-          <td>Post-training Data <span class="expand-indicator">▼</span></td>
+          <td>More Fruitful SFT by Respecting The Learner's Distribution <span class="expand-indicator">▼</span></td>
           <td>Junwei</td>
           <td onclick="event.stopPropagation()"><span class="status-pending">TBA</span></td>
         </tr>
