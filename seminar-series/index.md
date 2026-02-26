@@ -27,7 +27,7 @@ permalink: /seminar-series/
   </div>
 
   <h2 class="section-title">📅 Upcoming Seminars</h2>
-  <p>To add these seminars to your Google Calendar, please click [this link](https://calendar.google.com/calendar/u/1?cid=Y180MzA4NmNkYTAyZTZkYjEyNDZiNTU0ZWNkYjhiODE3ZTZmODQ0YmRhNjRiNzI1ZmJkNjRkOTgxMTU3ZWY2N2FlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).</p>
+  <p>To add these seminars to your Google Calendar, please click <a href=https://calendar.google.com/calendar/u/1?cid=Y180MzA4NmNkYTAyZTZkYjEyNDZiNTU0ZWNkYjhiODE3ZTZmODQ0YmRhNjRiNzI1ZmJkNjRkOTgxMTU3ZWY2N2FlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20 class="text-link">this link </a>.</p>
   <div class="seminar-calendar">
     <table class="seminar-table">
       <thead>
