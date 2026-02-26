@@ -3,7 +3,7 @@ layout: default
 title: Seminar Series
 permalink: /seminar-series/
 ---
-
+ 
 <div class="seminar-page">
   <h1>Seminar Series</h1>
   <p>A bi-weekly public seminar on the Data Foundations of AI.</p>
