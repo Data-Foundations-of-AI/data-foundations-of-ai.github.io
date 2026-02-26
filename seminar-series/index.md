@@ -1,4 +1,4 @@
----
+d---
 layout: default
 title: Seminar Series
 permalink: /seminar-series/
@@ -45,7 +45,11 @@ permalink: /seminar-series/
           <td><a href="https://dylanzsz.github.io/" onclick="event.stopPropagation()">Dylan Zhang</a></td>
           <td>More Fruitful SFT by Respecting The Learner's Distribution <span class="expand-indicator">▼</span></td>
           <td>Junwei</td>
-          <td onclick="event.stopPropagation()"><span class="status-pending">TBA</span></td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
+              Join Meeting
+            </a>
+          </td>
         </tr>
         <tr class="details-row" id="seminar-1" style="display: none;">
           <td colspan="5">
@@ -80,28 +84,44 @@ permalink: /seminar-series/
           <td><a href="https://nick11roberts.science/">Nicholas Roberts</a></td>
           <td>Scaling Laws and Evaluation</td>
           <td>Brian</td>
-          <td><span class="status-pending">TBA</span></td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
+              Join Meeting
+            </a>
+          </td>
         </tr>
         <tr>
           <td>Mar 24, 2026</td>
           <td><a href="https://mayeechen.github.io/">Mayee Chen</a></td>
           <td>Data Mixing</td>
           <td>Brian</td>
-          <td><span class="status-pending">TBA</span></td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
+              Join Meeting
+            </a>
+          </td>
         </tr>
         <tr>
           <td>Apr 7, 2026</td>
           <td><a href="https://lumos23.github.io/">Luxi He</a></td>
           <td>Data in LLM Lifecycles</td>
           <td>Junwei</td>
-          <td><span class="status-pending">TBA</span></td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
+              Join Meeting
+            </a>
+          </td>
         </tr>
         <tr>
           <td>Apr 21, 2026</td>
           <td><a href="https://zhenghaizhong.com/">Haizhong Zheng</a></td>
           <td>Efficient RL for LLMs</td>
           <td>Brian</td>
-          <td><span class="status-pending">TBA</span></td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
+              Join Meeting
+            </a>
+          </td>
         </tr>
       </tbody>
     </table>
