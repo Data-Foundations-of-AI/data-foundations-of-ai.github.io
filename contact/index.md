@@ -4,6 +4,11 @@ title: Contact & Get Involved
 permalink: /contact/
 ---
 
-For now:
-- Slack: [Request access via Google Form](https://forms.gle/SLVzaAzEcc4chTEn6)
-- Email: data-foundations-of-ai@googlegroups.com
+
+## Stay Connected
+
+- **Mailing List**: [Join our mailing list](https://groups.google.com/g/dfai-announcement)
+
+- **Slack Community**: [Request access via Google Form](https://forms.gle/SLVzaAzEcc4chTEn6)
+
+- **Email**: data-foundations-of-ai@googlegroups.com
