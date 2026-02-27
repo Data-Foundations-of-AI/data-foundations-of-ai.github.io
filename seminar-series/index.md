@@ -27,7 +27,7 @@ permalink: /seminar-series/
   </div>
 
   <p>Click <a href="https://calendar.google.com/calendar/u/1?cid=Y180MzA4NmNkYTAyZTZkYjEyNDZiNTU0ZWNkYjhiODE3ZTZmODQ0YmRhNjRiNzI1ZmJkNjRkOTgxMTU3ZWY2N2FlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" class="text-link">this link</a> to add the seminar calendar to your Google Calendar.</p>
-  <p>Join our <a href="https://groups.google.com/g/dfai-announcement" class="text-link">mailing list</a> for latest announcements (click the "Join group" button in googlegroups).</p>
+  <p>Join our <a href="https://groups.google.com/g/dfai-announcement" class="text-link">mailing list</a> for latest announcements (click the "Join group" button in Google Groups).</p>
 
   <h2 class="section-title">📅 Upcoming Seminars</h2>
   <div class="seminar-calendar">
