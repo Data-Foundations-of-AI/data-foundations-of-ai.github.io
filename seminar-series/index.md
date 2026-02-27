@@ -27,7 +27,8 @@ permalink: /seminar-series/
   </div>
 
   <h2 class="section-title">📅 Upcoming Seminars</h2>
-  <p>To add these seminars to your Google Calendar, <a href="https://calendar.google.com/calendar/u/1?cid=Y180MzA4NmNkYTAyZTZkYjEyNDZiNTU0ZWNkYjhiODE3ZTZmODQ0YmRhNjRiNzI1ZmJkNjRkOTgxMTU3ZWY2N2FlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" class="text-link"> click this link</a>.</p>
+  <p>Click <a href="https://calendar.google.com/calendar/u/1?cid=Y180MzA4NmNkYTAyZTZkYjEyNDZiNTU0ZWNkYjhiODE3ZTZmODQ0YmRhNjRiNzI1ZmJkNjRkOTgxMTU3ZWY2N2FlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" class="text-link">this link</a> to add these seminars to your Google Calendar.</p>
+  <p>Join our <a href="https://groups.google.com/g/dfai-announcement" class="text-link">mailing list</a> for latest announcement (click the "Join group" button).</p>
   <div class="seminar-calendar">
     <table class="seminar-table">
       <thead>
@@ -47,7 +48,7 @@ permalink: /seminar-series/
           <td>Junwei</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Join Meeting
+              Zoom Link
             </a>
           </td>
         </tr>
@@ -86,7 +87,7 @@ permalink: /seminar-series/
           <td>Brian</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Join Meeting
+              Zoom Link
             </a>
           </td>
         </tr>
@@ -97,7 +98,7 @@ permalink: /seminar-series/
           <td>Brian</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Join Meeting
+              Zoom Link
             </a>
           </td>
         </tr>
@@ -108,7 +109,7 @@ permalink: /seminar-series/
           <td>Junwei</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Join Meeting
+              Zoom Link
             </a>
           </td>
         </tr>
@@ -119,7 +120,7 @@ permalink: /seminar-series/
           <td>Brian</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Join Meeting
+              Zoom Link
             </a>
           </td>
         </tr>
