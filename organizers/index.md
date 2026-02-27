@@ -55,7 +55,7 @@ permalink: /organizers/
         <img src="{{ '/assets/images/organizers/pingbang-hu.png' | relative_url }}" alt="Pingbang Hu">
       </div>
       <div class="organizer-info">
-        <h3><a href="https://pbb.wtf/" target="_blank" rel="noopener">Pingbang Hu</a></h3>
+        <h3><a href="https://pbb.sh/" target="_blank" rel="noopener">Pingbang Hu</a></h3>
         <p class="affiliation">University of Illinois Urbana-Champaign</p>
       </div>
     </div>
