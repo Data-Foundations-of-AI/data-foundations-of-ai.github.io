@@ -125,6 +125,17 @@ permalink: /seminar-series/
             </a>
           </td>
         </tr>
+        <tr>
+          <td>Apr 28, 2026</td>
+          <td><a href="https://elisanguyen.github.io/">Elisa Nguyen</a></td>
+          <td>TDA and Trustworthy AI</td>
+          <td>Junwei</td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
+              Zoom Link
+            </a>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
