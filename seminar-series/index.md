@@ -43,7 +43,7 @@ permalink: /seminar-series/
       </thead>
       <tbody>
         <tr class="expandable-row" onclick="toggleDetails('seminar-2')">
-          <td>7 PM UTC | 2 PM ET<br>Mar 10, 2026</td>
+          <td>6 PM UTC | 2 PM ET<br>Mar 10, 2026</td>
           <td><a href="https://nick11roberts.science/" onclick="event.stopPropagation()">Nicholas Roberts</a></td>
           <td>Compute Optimal Scaling of Skills: Knowledge vs Reasoning <span class="expand-indicator">▼</span></td>
           <td>Brian</td>
