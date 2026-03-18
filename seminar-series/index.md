@@ -186,8 +186,8 @@ permalink: /seminar-series/
           <td>Compute Optimal Scaling of Skills: Knowledge vs Reasoning <span class="expand-indicator">▼</span></td>
           <td>Brian</td>
           <td onclick="event.stopPropagation()">
-            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Zoom Link
+            <a href="https://www.youtube.com/watch?v=qtuckPNS91Q" target="_blank" class="text-link">
+              YouTube
             </a>
           </td>
         </tr>
