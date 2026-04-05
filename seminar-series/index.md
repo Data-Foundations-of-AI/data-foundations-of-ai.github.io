@@ -42,7 +42,7 @@ permalink: /seminar-series/
         </tr>
       </thead>
       <tbody>
-        <tr class="expandable-row" onclick="toggleDetails('seminar-3')">
+        <tr class="expandable-row" onclick="toggleDetails('seminar-1')">
           <td>Apr 7, 2026</td>
           <td><a href="https://lumos23.github.io/">Luxi He</a></td>
           <td>The Brittleness of AI Alignment: A Data and Rules Perspective <span class="expand-indicator">▼</span></td>
