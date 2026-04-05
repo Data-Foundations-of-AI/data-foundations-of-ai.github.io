@@ -43,10 +43,10 @@ permalink: /seminar-series/
       </thead>
       <tbody>
         <tr class="expandable-row" onclick="toggleDetails('seminar-1')">
-          <td>Apr 7, 2026</td>
+          <td>7 PM UTC | 2 PM ET<br>Apr 10, 2026</td>
           <td><a href="https://lumos23.github.io/">Luxi He</a></td>
           <td>The Brittleness of AI Alignment: A Data and Rules Perspective <span class="expand-indicator">▼</span></td>
-          <td>Junwei</td>
+          <td>Ting-Wei</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
               Zoom Link
