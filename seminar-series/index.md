@@ -45,12 +45,30 @@ permalink: /seminar-series/
         <tr class="expandable-row" onclick="toggleDetails('seminar-3')">
           <td>Apr 7, 2026</td>
           <td><a href="https://lumos23.github.io/">Luxi He</a></td>
-          <td>Data in LLM Lifecycles</td>
+          <td>The Brittleness of AI Alignment: A Data and Rules Perspective <span class="expand-indicator">▼</span></td>
           <td>Junwei</td>
           <td onclick="event.stopPropagation()">
             <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
               Zoom Link
             </a>
+          </td>
+        </tr>
+        <tr class="details-row" id="seminar-1" style="display: none;">
+          <td colspan="5">
+            <div class="seminar-details">
+              <div class="speaker-photo">
+                <img src="{{ '/assets/images/seminars/lucy-he.jpg' | relative_url }}" alt="Luxi He">
+              </div>
+              <div class="seminar-content">
+                <h3>The Brittleness of AI Alignment: A Data and Rules Perspective</h3>
+                
+                <h4>Abstract</h4>
+                <p>AI alignment is typically framed as an algorithmic challenge, but data plays an equally critical role — both as a source of vulnerability and as a medium through which high-level alignment rules or model specs are operationalized. In this talk, I present two complementary works on this theme. The first investigates the phenomenon that fine-tuning aligned LLMs on seemingly harmless data can substantially degrade their safety. We propose representation and gradient-based methods, along with a novel bidirectional anchoring approach, to identify subsets of benign fine-tuning data most likely to cause jailbreaks. We find that training on as few as 100 carefully selected benign examples can cause a model to comply with more harmful requests than fine-tuning on explicitly harmful data. The second work examines a related but upstream problem: the natural-language rules or model constitutions meant to keep models safe are themselves ambiguous, making alignment data derived from rule compliance judgments inherently noisy. We propose a computational framework consisting of (1) a rule refinement pipeline that iteratively revises ambiguous rules to minimize interpretive ambiguity, and (2) applying interpretive constraints to reduce inconsistency in rule application. Evaluated on realistic conversations from the WildChat dataset, both interventions significantly improve judgment consistency across a panel of judge models. Together, these works highlight the brittleness of alignment: even benign data and well-intentioned rules can lead to unexpected failures, and present tools to diagnose and mitigate these failure modes.</p>
+                
+                <h4>Bio</h4>
+                <p>Luxi (Lucy) He is a PhD candidate in Computer Science at Princeton University, co-advised by Prof. Danqi Chen and Prof. Peter Henderson. Her recent research focuses on language model alignment and on the impact of data in the language model life cycle. Her work has been recognized with a best paper award at ICLR workshop, and various spotlights at conferences and workshops. She previously obtained her Bachelor's and Concurrent Master's degrees at Harvard University.</p>
+              </div>
+            </div>
           </td>
         </tr>
         <tr>
