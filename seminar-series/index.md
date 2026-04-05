@@ -159,6 +159,37 @@ permalink: /seminar-series/
             </div>
           </td>
         </tr>
+
+        <tr class="expandable-row" onclick="toggleDetails('seminar-2')">
+          <td>6 PM UTC | 2 PM ET<br>Mar 10, 2026</td>
+          <td><a href="https://nick11roberts.science/" onclick="event.stopPropagation()">Nicholas Roberts</a></td>
+          <td>Compute Optimal Scaling of Skills: Knowledge vs Reasoning <span class="expand-indicator">▼</span></td>
+          <td>Brian</td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://www.youtube.com/watch?v=qtuckPNS91Q" target="_blank" class="text-link">
+              YouTube
+            </a>
+          </td>
+        </tr>
+        <tr class="details-row" id="seminar-2" style="display: none;">
+          <td colspan="5">
+            <div class="seminar-details">
+              <div class="speaker-photo">
+                <img src="{{ '/assets/images/seminars/nicholas-roberts.png' | relative_url }}" alt="Nicholas Roberts">
+              </div>
+              <div class="seminar-content">
+                <h3>Compute Optimal Scaling of Skills: Knowledge vs Reasoning</h3>
+                
+                <h4>Abstract</h4>
+                <p>Scaling laws are a critical component of the LLM development pipeline, most famously as a way to forecast training decisions such as 'compute-optimally' trading-off parameter count and dataset size, alongside a more recent growing list of other crucial decisions. In this work, we ask whether compute-optimal scaling behaviour can be skill-dependent. In particular, we examine knowledge and reasoning-based skills such as knowledge-based QA and code generation, and we answer this question in the affirmative: scaling laws are skill-dependent. Next, to understand whether skill-dependent scaling is an artefact of the pretraining datamix, we conduct an extensive ablation of different datamixes and find that, also when correcting for datamix differences, knowledge and code exhibit fundamental differences in scaling behaviour. We conclude with an analysis of how our findings relate to standard compute-optimal scaling using a validation set, and find that a misspecified validation set can impact compute-optimal parameter count by nearly 50%, depending on its skill composition.</p>
+                
+                <h4>Bio</h4>
+                <p>Nicholas Roberts is a Ph.D. candidate in Computer Science at University of Wisconsin–Madison, advised by Frederic Sala in the Sprocket Lab, where he works on the science of foundation model scaling, data-efficiency, and adaptation to high-impact scientific domains---all with the ultimate goal of developing powerful scientific research agents. He has completed research internships at Meta's Llama team (working on scaling laws with Dieuwke Hupkes), Together AI (hybrid language models with Tri Dao), and Microsoft Research (Physics of AGI group with Sébastien Bubeck). He has received an honorable mention for the Jane Street Graduate Research Fellowship (2025) and was named an MLCommons Rising Star (2023). His academic path began at Fresno City College before earning his B.S. at UC San Diego where he worked with Sanjoy Dasgupta and Gary Cottrell and M.S. at Carnegie Mellon University with Ameet Talwalkar and Zack Lipton.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+
         <tr class="expandable-row" onclick="toggleDetails('past-seminar-1')">
           <td>Mar 3, 2026</td>
           <td><a href="https://dylanzsz.github.io/" onclick="event.stopPropagation()">Dylan Zhang</a></td>
@@ -194,35 +225,6 @@ permalink: /seminar-series/
                 
                 <h4>Bio</h4>
                 <p>Dylan Zhang is a Ph.D. student in Computer Science at the University of Illinois Urbana-Champaign (UIUC), advised by Prof. Hao Peng. His research focuses on large language model (LLM) post-training, particularly on developing offline training algorithms for efficient and effective model alignment. More broadly, he is interested in understanding the behavior, generalization, and inductive biases of large language models—how they learn from data, adapt through supervision, and exhibit emergent capabilities.</p>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr class="expandable-row" onclick="toggleDetails('seminar-2')">
-          <td>6 PM UTC | 2 PM ET<br>Mar 10, 2026</td>
-          <td><a href="https://nick11roberts.science/" onclick="event.stopPropagation()">Nicholas Roberts</a></td>
-          <td>Compute Optimal Scaling of Skills: Knowledge vs Reasoning <span class="expand-indicator">▼</span></td>
-          <td>Brian</td>
-          <td onclick="event.stopPropagation()">
-            <a href="https://www.youtube.com/watch?v=qtuckPNS91Q" target="_blank" class="text-link">
-              YouTube
-            </a>
-          </td>
-        </tr>
-        <tr class="details-row" id="seminar-2" style="display: none;">
-          <td colspan="5">
-            <div class="seminar-details">
-              <div class="speaker-photo">
-                <img src="{{ '/assets/images/seminars/nicholas-roberts.png' | relative_url }}" alt="Nicholas Roberts">
-              </div>
-              <div class="seminar-content">
-                <h3>Compute Optimal Scaling of Skills: Knowledge vs Reasoning</h3>
-                
-                <h4>Abstract</h4>
-                <p>Scaling laws are a critical component of the LLM development pipeline, most famously as a way to forecast training decisions such as 'compute-optimally' trading-off parameter count and dataset size, alongside a more recent growing list of other crucial decisions. In this work, we ask whether compute-optimal scaling behaviour can be skill-dependent. In particular, we examine knowledge and reasoning-based skills such as knowledge-based QA and code generation, and we answer this question in the affirmative: scaling laws are skill-dependent. Next, to understand whether skill-dependent scaling is an artefact of the pretraining datamix, we conduct an extensive ablation of different datamixes and find that, also when correcting for datamix differences, knowledge and code exhibit fundamental differences in scaling behaviour. We conclude with an analysis of how our findings relate to standard compute-optimal scaling using a validation set, and find that a misspecified validation set can impact compute-optimal parameter count by nearly 50%, depending on its skill composition.</p>
-                
-                <h4>Bio</h4>
-                <p>Nicholas Roberts is a Ph.D. candidate in Computer Science at University of Wisconsin–Madison, advised by Frederic Sala in the Sprocket Lab, where he works on the science of foundation model scaling, data-efficiency, and adaptation to high-impact scientific domains---all with the ultimate goal of developing powerful scientific research agents. He has completed research internships at Meta's Llama team (working on scaling laws with Dieuwke Hupkes), Together AI (hybrid language models with Tri Dao), and Microsoft Research (Physics of AGI group with Sébastien Bubeck). He has received an honorable mention for the Jane Street Graduate Research Fellowship (2025) and was named an MLCommons Rising Star (2023). His academic path began at Fresno City College before earning his B.S. at UC San Diego where he worked with Sanjoy Dasgupta and Gary Cottrell and M.S. at Carnegie Mellon University with Ameet Talwalkar and Zack Lipton.</p>
               </div>
             </div>
           </td>
