@@ -54,7 +54,7 @@ permalink: /seminar-series/
           </td>
         </tr>
         <tr>
-          <td>Apr 28, 2026</td>
+          <td>May 13, 2026</td>
           <td><a href="https://elisanguyen.github.io/">Elisa Nguyen</a></td>
           <td>TDA and Trustworthy AI</td>
           <td>Junwei</td>
