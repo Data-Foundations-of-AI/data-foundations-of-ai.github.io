@@ -458,12 +458,19 @@ hr{
 
 .seminar-table {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 14px;
   overflow: hidden;
 }
+
+.seminar-table th:nth-child(1) { width: 17%; }
+.seminar-table th:nth-child(2) { width: 18%; }
+.seminar-table th:nth-child(3) { width: 35%; }
+.seminar-table th:nth-child(4) { width: 12%; }
+.seminar-table th:nth-child(5) { width: 18%; }
 
 .seminar-table thead {
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
