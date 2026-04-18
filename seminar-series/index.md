@@ -43,7 +43,7 @@ permalink: /seminar-series/
       </thead>
       <tbody>
         <tr class="expandable-row" onclick="toggleDetails('upcoming-seminar-1')">
-          <td>Apr 21, 2026</td>
+          <td>6 PM UTC | 2 PM ET<br>Apr 21, 2026</td>
           <td><a href="https://zhenghaizhong.com/">Haizhong Zheng</a></td>
           <td>Understanding Rollout Staleness and Selectivity for Efficient Reinforcement Learning <span class="expand-indicator">▼</span></td>
           <td>Brian</td>
