@@ -42,35 +42,6 @@ permalink: /seminar-series/
         </tr>
       </thead>
       <tbody>
-        <tr class="expandable-row" onclick="toggleDetails('upcoming-seminar-1')">
-          <td>6 PM UTC | 2 PM ET<br>Apr 21, 2026</td>
-          <td><a href="https://zhenghaizhong.com/">Haizhong Zheng</a></td>
-          <td>Understanding Rollout Staleness and Selectivity for Efficient Reinforcement Learning <span class="expand-indicator">▼</span></td>
-          <td>Brian</td>
-          <td onclick="event.stopPropagation()">
-            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Zoom Link
-            </a>
-          </td>
-        </tr>
-        <tr class="details-row" id="upcoming-seminar-1" style="display: none;">
-          <td colspan="5">
-            <div class="seminar-details">
-              <div class="speaker-photo">
-                <img src="{{ '/assets/images/seminars/haizhong-800.webp' | relative_url }}" alt="Haizhong Zheng">
-              </div>
-              <div class="seminar-content">
-                <h3>Understanding Rollout Staleness and Selectivity for Efficient Reinforcement Learning</h3>
-
-                <h4>Abstract</h4>
-                <p>Reinforcement learning (RL) has become a cornerstone for aligning large language models (LLMs) with human preferences and enhancing model reasoning abilities. Yet, RL for LLMs remains computationally expensive and difficult to scale, posing fundamental challenges for efficiency at large scale. In this talk, I will present our recent efforts toward making RL for LLMs more efficient and scalable. I will begin with M2PO (Second-Moment Trust Proxy Optimization), an algorithm that enables stable off-policy RL even when learning from extremely stale data. By constraining the second moment of log-importance ratios, M2PO suppresses high-variance updates while preserving informative tokens, mitigating the "prosperity-before-collapse" phenomenon observed in stale-data training. Then, I will discuss GRESO (GRPO with Efficient Selective Rollout), which addresses the efficiency bottleneck of rollout generation in large-scale RL for LLMs. By selectively choosing more informative prompts for rollouts, GRESO significantly reduces rollout costs without compromising training performance.</p>
-
-                <h4>Bio</h4>
-                <p>Haizhong Zheng is a Postdoctoral Researcher in the Department of Electrical and Computer Engineering at Carnegie Mellon University, advised by Prof. Beidi Chen. He earned his B.E. and M.S. degrees from Shanghai Jiao Tong University and his Ph.D. in Computer Science and Engineering from the University of Michigan in 2024, where he was advised by Prof. Atul Prakash. His research focuses on machine learning efficiency, such as training data efficiency, large language model (LLM) inference efficiency, and LLM training efficiency. His recent research aims to design more efficient and scalable reinforcement learning algorithms for LLM reasoning. In addition, he also works on topics related to machine learning security and LLM-based autonomous agents.</p>
-              </div>
-            </div>
-          </td>
-        </tr>
         <tr>
           <td>May 13, 2026</td>
           <td><a href="https://elisanguyen.github.io/">Elisa Nguyen</a></td>
@@ -119,6 +90,35 @@ permalink: /seminar-series/
         </tr>
       </thead>
       <tbody>
+        <tr class="expandable-row" onclick="toggleDetails('seminar-4')">
+          <td>>6 PM UTC | 2 PM ET<br>Apr 21, 2026</td>
+          <td><a href="https://zhenghaizhong.com/" onclick="event.stopPropagation()">Haizhong Zheng</a></td>
+          <td>Understanding Rollout Staleness and Selectivity for Efficient Reinforcement Learning <span class="expand-indicator">▼</span></td>
+          <td>Brian</td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://www.youtube.com/watch?v=ckD7UoJvmd8" target="_blank" class="text-link">
+              YouTube
+            </a>
+          </td>
+        </tr>
+        <tr class="details-row" id="seminar-4" style="display: none;">
+          <td colspan="5">
+            <div class="seminar-details">
+              <div class="speaker-photo">
+                <img src="{{ '/assets/images/seminars/haizhong-800.webp' | relative_url }}" alt="Haizhong Zheng">
+              </div>
+              <div class="seminar-content">
+                <h3>Understanding Rollout Staleness and Selectivity for Efficient Reinforcement Learning</h3>
+
+                <h4>Abstract</h4>
+                <p>Reinforcement learning (RL) has become a cornerstone for aligning large language models (LLMs) with human preferences and enhancing model reasoning abilities. Yet, RL for LLMs remains computationally expensive and difficult to scale, posing fundamental challenges for efficiency at large scale. In this talk, I will present our recent efforts toward making RL for LLMs more efficient and scalable. I will begin with M2PO (Second-Moment Trust Proxy Optimization), an algorithm that enables stable off-policy RL even when learning from extremely stale data. By constraining the second moment of log-importance ratios, M2PO suppresses high-variance updates while preserving informative tokens, mitigating the "prosperity-before-collapse" phenomenon observed in stale-data training. Then, I will discuss GRESO (GRPO with Efficient Selective Rollout), which addresses the efficiency bottleneck of rollout generation in large-scale RL for LLMs. By selectively choosing more informative prompts for rollouts, GRESO significantly reduces rollout costs without compromising training performance.</p>
+
+                <h4>Bio</h4>
+                <p>Haizhong Zheng is a Postdoctoral Researcher in the Department of Electrical and Computer Engineering at Carnegie Mellon University, advised by Prof. Beidi Chen. He earned his B.E. and M.S. degrees from Shanghai Jiao Tong University and his Ph.D. in Computer Science and Engineering from the University of Michigan in 2024, where he was advised by Prof. Atul Prakash. His research focuses on machine learning efficiency, such as training data efficiency, large language model (LLM) inference efficiency, and LLM training efficiency. His recent research aims to design more efficient and scalable reinforcement learning algorithms for LLM reasoning. In addition, he also works on topics related to machine learning security and LLM-based autonomous agents.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
         <tr class="expandable-row" onclick="toggleDetails('seminar-1')">
           <td>7 PM UTC | 2 PM ET<br>Apr 10, 2026</td>
           <td><a href="https://lumos23.github.io/" onclick="event.stopPropagation()">Luxi He</a></td>
