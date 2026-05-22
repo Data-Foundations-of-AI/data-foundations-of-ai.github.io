@@ -42,35 +42,6 @@ permalink: /seminar-series/
         </tr>
       </thead>
       <tbody>
-        <tr class="expandable-row" onclick="toggleDetails('seminar-elisa')">
-          <td>May 13, 2026</td>
-          <td><a href="https://elisanguyen.github.io/" onclick="event.stopPropagation()">Elisa Nguyen</a></td>
-          <td>Training Data Attribution as Explanations: Insights from User Studies <span class="expand-indicator">▼</span></td>
-          <td>Junwei</td>
-          <td onclick="event.stopPropagation()">
-            <a href="https://illinois.zoom.us/j/81795451508?pwd=U3PAfk44ZtDJ2BaDJds2FXe2ACsvjg.1" target="_blank" class="text-link">
-              Zoom Link
-            </a>
-          </td>
-        </tr>
-        <tr class="details-row" id="seminar-elisa" style="display: none;">
-          <td colspan="5">
-            <div class="seminar-details">
-              <div class="speaker-photo">
-                <img src="{{ '/assets/images/seminars/tml_pic_elisa.jpg' | relative_url }}" alt="Elisa Nguyen">
-              </div>
-              <div class="seminar-content">
-                <h3>Training Data Attribution as Explanations: Insights from User Studies</h3>
-
-                <h4>Abstract</h4>
-                <p>Training data attribution (TDA) traces model behaviour back to the data that shaped it. This makes it a natural interface for humans to understand model behaviour through the lens of training data — and a promising building block for more transparent and trustworthy AI systems. Like many user-facing technologies, however, TDA is inherently sociotechnical: its value depends on who uses it, for what, and in what context. In this talk, I present a line of research that brings a human-centered perspective to TDA by engaging directly with practitioners and potential users to understand what they actually need from data-centric explanations. Through a qualitative interview study with practitioners across high-risk domains like healthcare, we find that TDA is largely unknown in practice but positively received, and that end-users and model developers have meaningfully different needs. Building on this, a needfinding study explores the design space of TDA explanations and reveals practically grounded tasks, such as attribution to groups or identifying underrepresented data. These findings point to the value of studying technology as part of a sociotechnical system, and offer a starting point for discussion on how TDA research can consider the needs of its potential users.</p>
-
-                <h4>Bio</h4>
-                <p>Elisa Nguyen is a PhD student in the Scalable Trustworthy AI group at the University of Tübingen, advised by Seong Joon Oh, and a scholar in the International Max Planck Research School for Intelligent Systems. Her research focuses on training data attribution as explanations for model behaviour, including aspects of attribution reliability and practical utility, with the ultimate goal of gaining an actionable understanding of how models learn through the lens of data. She has previously interned at the Vector Institute with Roger Grosse and at Microsoft Research with Andrzej Bankurski-Fahey on the topic of data attribution and provenance, as well as co-organized the ATTRIB workshop at NeurIPS 2024.</p>
-              </div>
-            </div>
-          </td>
-        </tr>
       </tbody>
     </table>
   </div>
@@ -108,8 +79,37 @@ permalink: /seminar-series/
         </tr>
       </thead>
       <tbody>
+        <tr class="expandable-row" onclick="toggleDetails('seminar-elisa')">
+          <td>May 13, 2026</td>
+          <td><a href="https://elisanguyen.github.io/" onclick="event.stopPropagation()">Elisa Nguyen</a></td>
+          <td>Training Data Attribution as Explanations: Insights from User Studies <span class="expand-indicator">▼</span></td>
+          <td>Junwei</td>
+          <td onclick="event.stopPropagation()">
+            <a href="https://youtu.be/0Odv5FBVPH8" target="_blank" class="text-link">
+              YouTube
+            </a>
+          </td>
+        </tr>
+        <tr class="details-row" id="seminar-elisa" style="display: none;">
+          <td colspan="5">
+            <div class="seminar-details">
+              <div class="speaker-photo">
+                <img src="{{ '/assets/images/seminars/tml_pic_elisa.jpg' | relative_url }}" alt="Elisa Nguyen">
+              </div>
+              <div class="seminar-content">
+                <h3>Training Data Attribution as Explanations: Insights from User Studies</h3>
+
+                <h4>Abstract</h4>
+                <p>Training data attribution (TDA) traces model behaviour back to the data that shaped it. This makes it a natural interface for humans to understand model behaviour through the lens of training data — and a promising building block for more transparent and trustworthy AI systems. Like many user-facing technologies, however, TDA is inherently sociotechnical: its value depends on who uses it, for what, and in what context. In this talk, I present a line of research that brings a human-centered perspective to TDA by engaging directly with practitioners and potential users to understand what they actually need from data-centric explanations. Through a qualitative interview study with practitioners across high-risk domains like healthcare, we find that TDA is largely unknown in practice but positively received, and that end-users and model developers have meaningfully different needs. Building on this, a needfinding study explores the design space of TDA explanations and reveals practically grounded tasks, such as attribution to groups or identifying underrepresented data. These findings point to the value of studying technology as part of a sociotechnical system, and offer a starting point for discussion on how TDA research can consider the needs of its potential users.</p>
+
+                <h4>Bio</h4>
+                <p>Elisa Nguyen is a PhD student in the Scalable Trustworthy AI group at the University of Tübingen, advised by Seong Joon Oh, and a scholar in the International Max Planck Research School for Intelligent Systems. Her research focuses on training data attribution as explanations for model behaviour, including aspects of attribution reliability and practical utility, with the ultimate goal of gaining an actionable understanding of how models learn through the lens of data. She has previously interned at the Vector Institute with Roger Grosse and at Microsoft Research with Andrzej Bankurski-Fahey on the topic of data attribution and provenance, as well as co-organized the ATTRIB workshop at NeurIPS 2024.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
         <tr class="expandable-row" onclick="toggleDetails('seminar-4')">
-          <td>>6 PM UTC | 2 PM ET<br>Apr 21, 2026</td>
+          <td>6 PM UTC | 2 PM ET<br>Apr 21, 2026</td>
           <td><a href="https://zhenghaizhong.com/" onclick="event.stopPropagation()">Haizhong Zheng</a></td>
           <td>Understanding Rollout Staleness and Selectivity for Efficient Reinforcement Learning <span class="expand-indicator">▼</span></td>
           <td>Brian</td>
