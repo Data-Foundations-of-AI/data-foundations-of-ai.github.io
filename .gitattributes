@@ -1,0 +1,9 @@
+# Normalize all text files to LF in the repo and on checkout.
+# Prevents CRLF line-ending corruption from Windows editors (see commit 35b8d72).
+* text=auto eol=lf
+
+# Keep binary assets untouched.
+*.jpg -text
+*.png -text
+*.gif -text
+*.ico -text
