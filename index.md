@@ -66,4 +66,9 @@ permalink: /
     <p>Curated tutorials, surveys, libraries, datasets, and events.</p>
     <p><a href="{{ '/resources/' | relative_url }}">Browse resources →</a></p>
   </div>
+  <div class="card">
+    <h3>🎉 ICML 2026 Social</h3>
+    <p>Join our Data Foundations of AI Social at ICML 2026 — July 8, with a panel discussion.</p>
+    <p><a href="{{ '/icml-2026/' | relative_url }}">Event details →</a></p>
+  </div>
 </div>
