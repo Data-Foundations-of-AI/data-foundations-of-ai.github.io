@@ -11,11 +11,11 @@ permalink: /icml-2026/
   <div class="seminar-info-grid">
     <div class="info-card">
       <h3>📅 When</h3>
-      <p>July 8, 2026<br>7:00 – 9:00 PM KST (UTC+9)</p>
+      <p>July 8, 2026<br><strong style="color: var(--accent);">7:00 – 9:00 PM KST</strong> (UTC+9)</p>
     </div>
     <div class="info-card">
       <h3>📍 Where</h3>
-      <p>COEX Convention &amp; Exhibition Center, Seoul, South Korea<br>Room E5–E6</p>
+      <p>COEX Convention &amp; Exhibition Center, Seoul, South Korea<br><strong style="color: var(--accent);">Room E5–E6</strong></p>
     </div>
     <div class="info-card">
       <h3>👥 Who</h3>
