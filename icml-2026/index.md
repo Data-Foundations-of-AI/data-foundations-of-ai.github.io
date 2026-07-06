@@ -93,7 +93,7 @@ permalink: /icml-2026/
       </div>
       <div class="organizer-info">
         <h3><a href="https://qiuyiz.github.io/" target="_blank" rel="noopener">Richard Zhang</a></h3>
-        <p class="affiliation">Member of Technical Staff, Elorian AI</p>
+        <p class="affiliation">Founding Researcher, Elorian AI</p>
       </div>
     </div>
   </div>
